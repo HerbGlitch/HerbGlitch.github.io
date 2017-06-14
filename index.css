@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.paralaxShell{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	background: url("images/world.jpeg") fixed 100% no-repeat;
+}
+
+.navPadding{
+	padding-top: 25vh;
+}
+
+nav{
+	margin: auto;
+	height: 300px;
+	width: 1000px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.4);
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+
+/*-----------------End Head-------------------*/
+
+.bio {
+	height: 100vh;
+	width: 100vw;
+	background-color: #e6e6fa;
+}
+
+.bioContent {
+	height: 28vh;
+	background: url("images/city.jpeg") fixed 100% no-repeat;
+	/*------border: 1px solid black;-------*/
+}
+
+.bioTopPadding{
+	width: 15vw;
+	padding-top: 5vh;
+	float: left;
+	margin-left: 4vw;
+	border-radius: 10px 10px 0 0;
+}
+
+.bioCenterPadding{
+	width: 92vw;
+	float: left;
+	margin-left: 4vw;
+}
+
+.bioBottomPadding {
+	width: 15vw;
+	float: right;
+	margin-right: 4vw;
+	border-radius: 0 0 10px 10px;
+}
+
+
+
+/*----------------End Bio--------------------*/
+
+.divPadding{
+	padding-top: 25vh;
+}
+
+.quickSnippets {
+	height: 100vh;
+	width: 100vw;
+	background: url("images/bridge.jpeg") fixed 100% no-repeat;
+}
+
+.qsContent {
+	margin: auto;
+	height: 300px;
+	width: 1000px;
+	background-color: rgba(8, 141, 165, .4);
+	border-radius: 10px;
+	/*------#088da5-------*/
+}
