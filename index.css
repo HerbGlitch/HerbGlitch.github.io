@@ -41,7 +41,7 @@ h1{
 
 .bioContent {
 	height: 28vh;
-	background: url("images/city.jpeg") fixed 100% no-repeat;
+	background: url("https://static.pexels.com/photos/47426/pexels-photo-47426.jpeg") fixed 100% no-repeat;
 	/*------border: 1px solid black;-------*/
 }
 
@@ -49,8 +49,7 @@ h1{
 	width: 15vw;
 	padding-top: 5vh;
 	float: left;
-	margin-left: 4vw;
-	border-radius: 10px 10px 0 0;
+	margin-left: 4vw;	
 }
 
 .bioCenterPadding{
@@ -63,9 +62,19 @@ h1{
 	width: 15vw;
 	float: right;
 	margin-right: 4vw;
+}
+
+#bioTop{
+	border-radius: 10px 10px 0 0;
+}
+
+#bioBottom{
 	border-radius: 0 0 10px 10px;
 }
 
+#bioCenter{
+	border-radius: 0 10px;
+}
 
 
 /*----------------End Bio--------------------*/
