@@ -9,7 +9,7 @@ body{
 	padding: 0;
 	height: 100vh;
 	width: 100vw;
-	background: url("images/world.jpeg") fixed 100% no-repeat;
+	background: url("images/Tanner-Building.jpg") fixed 100% no-repeat;
 }
 
 .navPadding{
@@ -78,7 +78,7 @@ nav button:hover {
 
 .bioContent {
 	height: 28vh;
-	background: url("images/city.jpeg") fixed 100% no-repeat;
+	background: url("images/Area.jpg") fixed 100% no-repeat;
 }
 
 .container{
@@ -157,7 +157,7 @@ nav button:hover {
 .quickSnippets {
 	height: 100vh;
 	width: 100vw;
-	background: url("images/bridge.jpeg") fixed 100% no-repeat;
+	background: url("images/Brigham-statue.jpg") fixed 100% no-repeat;
 }
 
 .qsContent {
