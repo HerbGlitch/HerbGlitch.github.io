@@ -27,8 +27,45 @@ nav{
 h1{
 	text-align: center;
 	font-size: 70px;
-	margin-top: 40px;
+	margin: 40px 0 0 0;
 	color: #FFFFFF;
+}
+
+h2{
+	margin: 0;
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+h3{
+	margin: 0;
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: #FFFFFF;
+
+}
+
+.buttonPadding{
+	margin-top: 20px;
+	margin-left: 5vw;
+}
+
+nav button {
+	margin: 0 3vw 0 3vw;
+	background-color: rgba(26,26,26,.4);/*#232F3B*/
+	border:none;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	transition: .5s;
+}
+
+nav button:hover {
+	background-color: rgba(89,89,89,.7);
 }
 
 /*-----------------End Head-------------------*/
@@ -41,15 +78,33 @@ h1{
 
 .bioContent {
 	height: 28vh;
-	background: url("https://static.pexels.com/photos/47426/pexels-photo-47426.jpeg") fixed 100% no-repeat;
-	/*------border: 1px solid black;-------*/
+	background: url("images/city.jpeg") fixed 100% no-repeat;
+}
+
+.container{
+	width: 74vw;
 }
 
 .bioTopPadding{
-	width: 15vw;
 	padding-top: 7vh;
+	width: 15vw;
 	float: left;
 	margin-left: 4vw;	
+}
+
+#topRight{
+	margin-top: -1vh;
+	float: right;
+	margin-right: 4vw;
+	margin-left: 0;
+}
+
+.TRText{
+	border: 0 solid #FFFFFF;
+	border-radius: 10px;
+	height: 24vh;
+	font-size: 40px;
+	background-color: #999999;
 }
 
 .bioCenterPadding{
@@ -63,6 +118,22 @@ h1{
 	float: right;
 	margin-right: 4vw;
 }
+
+#bottomLeft{
+	margin-top: -4vh;
+	float: left;
+	margin-left: 4vw;
+	margin-right: 0;
+}
+
+.BLText{
+	border: 0 solid #FFFFFF;
+	border-radius: 10px;
+	height: 24vh;
+	font-size: 40px;
+	background-color: #999999;
+}
+
 
 #bioTop{
 	border-radius: 10px 10px 0 0;
@@ -80,7 +151,7 @@ h1{
 /*----------------End Bio--------------------*/
 
 .divPadding{
-	padding-top: 25vh;
+	padding-top: 15vh;
 }
 
 .quickSnippets {
@@ -90,8 +161,8 @@ h1{
 }
 
 .qsContent {
-	margin: auto;
-	height: 300px;
+	margin: 5vh auto 0 auto;
+	height: 100px;
 	width: 1000px;
 	background-color: rgba(8, 141, 165, .4);
 	border-radius: 10px;
