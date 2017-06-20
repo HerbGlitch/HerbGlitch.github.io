@@ -50,11 +50,11 @@ h3{
 
 .buttonPadding{
 	margin-top: 20px;
-	margin-left: 5vw;
+	margin-left: 3vw;
 }
 
 nav button {
-	margin: 0 3vw 0 3vw;
+	margin: 0 1vw 0 1vw;
 	background-color: rgba(26,26,26,.4);/*#232F3B*/
 	border:none;
 	width: 200px;
